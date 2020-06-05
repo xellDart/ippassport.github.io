@@ -113,6 +113,13 @@ section{
     width: auto;
     line-height: 0;
 }
+@media  (max-width: 990px){
+    .logo{
+        margin: auto;
+        float: none;
+        text-align: center;
+  }
+}
 .menu-holder{
     padding: 38px 0;
 }
@@ -333,7 +340,6 @@ section{
 .full-page-bg .banner-caption-wrap .banner-title{
     float: left;
     width:100%;
-    font-size: 33px;
     margin: 0 0 22px;
     line-height: 40px;
 }
@@ -350,6 +356,7 @@ section{
 }
 /******************************** Main Banner Css Start *******************************/
 .main-banner{
+    min-height: 700px;
     float: left;
     width: 100%;
     position: relative;
@@ -363,7 +370,6 @@ section{
     float: left;
     width: 100%;
     margin: 0 0 23px;
-    font-size: 60px;
     font-weight: 300;
     line-height: 1.2 em;
 }
@@ -1777,6 +1783,11 @@ footer.dark-black .widget_recent_entries ul li{
 
 /*---------------MORE*/
 
+.vertical-align{
+  display: table-cell;
+  vertical-align: middle;
+}
+
 .align-items-center{
   display: flex;
   align-items: center !important;
@@ -1790,3 +1801,85 @@ footer.dark-black .widget_recent_entries ul li{
 .linea {
   border-bottom:1px solid #edecec;
 }
+/*---------------MORE size*/
+/*Size banner*/
+  .size-h1{
+  font-size: 50px
+  }
+  .size-p-h1{
+    font-size: 20px;
+    color:#666
+  }
+  .box-text{
+    padding-left:50px;
+    padding-right: 50px;
+  }
+  .grey{
+    background-color:#37474f;
+    height:510px;
+    padding: 90px;
+  }
+ @media (max-width: 1200px){
+   .size-h1{
+    font-size: 40px;
+   }
+   .size-p-h1{
+    font-size: 15px;
+   }
+  .main-banner{
+    min-height: auto;
+   }
+   .grey-title{
+    font-size: 30px;
+   }
+   .grey{
+     padding: 40px;
+     padding-top: 20%;
+     height:610px;
+   }
+   .box-text{
+     padding:0;
+   }
+   .img-center{
+    padding-top: 50%;
+   }
+}
+  @media (max-width: 990px){
+    .menu-holder{
+      padding: 0
+    }
+    .size-h1{
+     font-size: 35px;
+    }
+    .grey{
+      padding: 30px;
+      padding-top: 20%;
+    }
+    .img-center2{
+     padding-top: 50%;
+    }
+  }
+
+  @media (max-width: 775px){
+    .grey{
+     height: 310px;
+     padding-top: 15%;
+    }
+    .grey-title{
+     font-size: 50px;
+     }
+     .box-text{
+       padding-left:50px;
+       padding-right: 50px;
+     }
+     .align-center{
+       text-align: center;
+     }
+     .align-vertical{
+       vertical-align: center;
+     }
+     .img-center{
+      padding-top:0;
+     }
+
+  }
